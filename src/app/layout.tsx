@@ -25,7 +25,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "De's Guinea House | Fine Jewellery, Bowbazar",
+  title: "Deys Guinea House | Fine Jewellery, Bowbazar",
   description: "Timeless gold jewellery, thoughtfully crafted in the heart of Kolkata.",
   icons: { icon: "/antique-gold.jpg" }
 };

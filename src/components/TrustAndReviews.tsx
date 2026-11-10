@@ -96,7 +96,7 @@ export default function TrustAndReviews() {
         <div className="mt-20 grid items-center gap-10 md:grid-cols-[1.15fr_0.85fr]">
           <div className="relative border border-[#D4AF37]/60 p-2">
             <div className="relative aspect-video overflow-hidden bg-[#1A1A1A]">
-              <video ref={videoRef} autoPlay muted loop playsInline poster={storeData.media.hero} className="h-full w-full object-cover" aria-label="Inside the De's Guinea House showroom">
+              <video ref={videoRef} autoPlay muted loop playsInline poster={storeData.media.hero} className="h-full w-full object-cover" aria-label="Inside the Deys Guinea House showroom">
                 <source src={storeData.media.showroomVideo} type="video/mp4" />
               </video>
               <div className="absolute inset-x-4 bottom-4 flex items-center justify-between">

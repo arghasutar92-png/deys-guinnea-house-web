@@ -39,7 +39,7 @@ const collections: readonly Collection[] = [
 ] as const;
 
 function whatsappLink(title: string) {
-  const message = `Hello De's Guinea House, I would like to enquire about the ${title}.`;
+  const message = `Hello Deys Guinea House, I would like to enquire about the ${title}.`;
   return `${storeData.whatsappHref}?text=${encodeURIComponent(message)}`;
 }
 

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { storeData } from "@/data/storeData";
 
@@ -35,8 +36,9 @@ export default function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-[#D4AF37]/30 bg-[#0D0D0D]/90 backdrop-blur-md">
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 md:h-24 md:px-12 lg:px-16" aria-label="Main navigation">
-        <a href="#" onClick={closeMenu} className="font-display text-xl leading-none tracking-wide text-[#D4AF37] [background:linear-gradient(110deg,#F9F6F0,#D4AF37_55%,#A77B15)] [background-clip:text] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] sm:text-2xl">
-          De&apos;s Guinea House
+        <a href="#" onClick={closeMenu} className="flex min-w-0 items-center gap-3 text-[#D4AF37]">
+          <Image src="/logo.jpg" alt="Deys Guinea House Logo" width={42} height={42} priority className="h-10 w-10 shrink-0 rounded-full object-cover sm:h-12 sm:w-12" />
+          <span className="truncate font-display text-xl leading-none tracking-wide sm:text-2xl">Deys Guinea House</span>
         </a>
 
         <div className="hidden items-center gap-8 lg:flex">

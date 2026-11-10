@@ -22,7 +22,7 @@ export default function Home() {
         <div>
           <p className="mb-5 text-[10px] uppercase tracking-widest-plus text-champagne">A Kolkata legacy</p>
           <h2 className="max-w-lg font-display text-5xl leading-tight text-ivory md:text-7xl">Made for your <em className="text-champagne">forever.</em></h2>
-          <p className="mt-8 max-w-md text-sm leading-8 text-ivory/60">For generations, De&apos;s Guinea House has been a part of life&apos;s most beautiful moments. Every piece is an expression of our city&apos;s rich craft and your singular story.</p>
+          <p className="mt-8 max-w-md text-sm leading-8 text-ivory/60">For generations, Deys Guinea House has been a part of life&apos;s most beautiful moments. Every piece is an expression of our city&apos;s rich craft and your singular story.</p>
           <a href="#collection" className="mt-8 inline-flex items-center gap-3 border-b border-champagne pb-3 text-[10px] uppercase tracking-widest text-champagne">Discover our story <ArrowUpRight /></a>
         </div>
         <div className="image-shine relative aspect-[4/5] max-w-md justify-self-end">
